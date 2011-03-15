@@ -1,0 +1,38 @@
+Acme\JobeetBundle\Entity\Category:
+    type: entity
+    table: null
+    fields:
+        id:
+            type: integer
+            length: null
+            precision: 0
+            scale: 0
+            nullable: false
+            unique: false
+            id: true
+            generator:
+                strategy: IDENTITY
+        name:
+            type: string
+            length: '255'
+            precision: 0
+            scale: 0
+            nullable: false
+            unique: true
+        createdAt:
+            type: datetime
+            length: null
+            precision: 0
+            scale: 0
+            nullable: false
+            unique: false
+            column: created_at
+        expiresAt:
+            type: datetime
+            length: null
+            precision: 0
+            scale: 0
+            nullable: false
+            unique: false
+            column: expires_at
+    lifecycleCallbacks: {  }
