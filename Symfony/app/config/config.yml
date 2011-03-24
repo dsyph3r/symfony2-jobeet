@@ -45,6 +45,7 @@ doctrine:
             default:
                 mappings:
                     AcmeDemoBundle: ~
+                    SfTutsJobeetBundle: ~
 
 # Swiftmailer Configuration
 swiftmailer:
