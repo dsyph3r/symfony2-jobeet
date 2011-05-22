@@ -1,0 +1,15 @@
+homepage:
+    pattern:  /
+    defaults: { _controller: Dsyph3rJobeetBundle:Default:index }
+    
+job_show:
+    pattern:  /job/{id}
+    defaults: { _controller: Dsyph3rJobeetBundle:Job:show }
+    requirements:
+        id: ^\d+$
+
+job_edit:
+    pattern:  /job/edit/{id}
+    defaults: { _controller: Dsyph3rJobeetBundle:Job:edit }
+    requirements:
+        id: ^\d+$
